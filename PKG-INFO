@@ -1,0 +1,39 @@
+Metadata-Version: 0.1.0
+Name: ringinfoclient
+Version: 0.1.0.dev0
+Summary: iQIYI Ringinfo Client for OpenStack Swift
+Home-page: http://scm.qiyi.virtual/cloudstorage/ringinfo-client
+Author: Jianfeng Xu
+Author-email: xujianfeng_sx@qiyi.com
+License: UNKNOWN
+Description: Ringinfo Client
+        ------
+        
+        Ringinfo Client for OpenStack Swift
+        
+        Features
+        -------
+         - Support Swift-Client to PUT object/container to Storage Server
+        
+        Install
+        -------
+        
+        1) Package the ringinfoclient module with ``python setup.py sdist``.
+
+        2) Install ringinfoclient with ``sudo python setup.py install`` or ``sudo python
+            setup.py develop`` or via whatever packaging system you may be using.
+
+        3) Then, from ringinfoclient.ringmanagement import RingManagement to fetch Object/Container/Account
+            Ring, and put Object/Container at the Swift-Client side.
+
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7

@@ -1,0 +1,28 @@
+Ringinfo Client
+------
+
+Ringinfo Client for OpenStack Swift
+
+Features
+-------
+ - Support Swift-Client to PUT object/container to Storage Server
+
+Install
+-------
+
+1) Package the ringinfoclient module with ``python setup.py sdist``.
+
+2) Install ringinfoclient with ``sudo python setup.py install`` or ``sudo python
+   setup.py develop`` or via whatever packaging system you may be using.
+
+3) Then, from ringinfoclient.ringmanagement import RingManagement to fetch Object/Container/Account
+    Ring, and put Object/Container at the Swift-Client side.
+
+or fetch the `ringinfoclient-0.1.0.tar.gz` in the `sdist` folder directly
+and install ringinfoclient with ``sudo python setup.py install`` or ``sudo python
+   setup.py develop`` or via whatever packaging system you may be using.
+
+
+Example
+-------
+Show the test case in the example.
